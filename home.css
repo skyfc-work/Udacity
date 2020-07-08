@@ -1,0 +1,133 @@
+body {
+    background-color: whitesmoke;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Fondamento', cursive;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: $linkPink;
+}
+
+.container {
+    display: grid;
+    width: 90vw;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 10vh 10vh 10vh;
+    gap: 25px;
+    grid-template-areas: "navbar navbar navbar" "header header header" "card1 card2 card3" "footer footer footer";
+    border: 2px solid red;
+    padding: 70px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border: 1px solid orange;
+    clear: both;
+}
+
+#navbar {
+    grid-area: navbar;
+    display: flex;
+    margin: auto;
+    /* establish flex container */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    font-size: 1em;
+    font-variant-caps: all-petite-caps;
+    font-weight: 600;
+}
+
+.image {
+    position: absolute;
+    width: 490px;
+}
+
+.blog-img .item-summary {}
+
+.nav-list ul {
+    display: flex;
+    border: 1px solid rgb(212, 20, 20);
+    list-style: none;
+    margin-right: 3em;
+    padding: 0;
+}
+
+.nav-list li {
+    flex: 3;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    border: 1px solid orange;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.social {
+    position: relative;
+    float: right;
+    border: 1px solid orange;
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+#header {
+    grid-area: header;
+    display: flex;
+    /* establish flex container */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+#card1 {
+    order: 1;
+}
+
+#card2 {
+    order: 2;
+}
+
+#card3 {
+    order: 3;
+}
+
+#footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
