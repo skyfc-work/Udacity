@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+<html>
 
-<html class="no-js">
 
+<!-- Site Head Specs -->
 
 <head>
     <meta charset="utf-8">
@@ -9,80 +10,209 @@
     <title>Sky Blog</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="post-card.css">
-    <link rel="stylesheet" href="footer.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="new.css">
+
+
+    <!-- Google Font : Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 
+<!-- The Body -->
 
 <body>
-    <script src="" async defer></script>
 
 
-    <div class="container">
-        <div class="box" id="navbar">
-            <h1>Sense & Taste</h1>
-            <nav class="nav-list">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Team</a></li>
+    <!-- The Header : includes navigation and site title -->
+    <header id="pageHeader">
+        <div class="header-title-nav">
+
+
+            <!-- Navigation -->
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <a href="new.html">
+                        <li>Home</li>
+                    </a>
                 </ul>
             </nav>
-            <img class="social" src="ig.png" alt="W3Schools" src="logo_w3s.gif" width="3%">
-        </div>
 
 
-        <div class="box" id="header">
-            <h1>Thoughts on Recipes & Ingredients</h1>
-        </div>
-
-
-        <div class="box" id="card1">
-            <img class="blog-img" src="" alt="" src="">
-            <h1 class="blog-title"></h1>
-            <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="blog-more-link" href="/blog/blog-post-one" data-animation-role="content">Read More</a>
-        </div>
-
-
-        <div class="box" id="card2">
-            <article class="image">
-                <img class="blog-img" src="" alt="">
-            </article>
-            <section class="item-summary">
-                <h1 class="blog-title"></h1>
-                <div class="blog-excerpt">
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <!-- Site Title -->
+            <div class="header-title">
+                <div class="header-title-text">
+                    <a id="site-title" href="new.html">Sauce Spice Stuff</a>
                 </div>
-                <a class="blog-more-link" href="/blog/blog-post-one" data-animation-role="content">Read More</a>
-            </section>
+            </div>
+
+
+            <!-- Social Links -->
+            <div class="header-social">
+                <ul class="social-list">
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
         </div>
+    </header>
 
-
-        <div class="box" id="card3">
-            <article class="image">
-                <img class="blog-img" src="" alt="">
-            </article>
-            <section class="item-summary">
-                <h1 class="blog-title"></h1>
-                <div class="blog-excerpt">
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <!-- The Blog Post Card Grid -->
+    <main id="article1">
+        <div class="blog-grid">
+            <!-- Card 1 -->
+            <article class="blog-item-one">
+                <div>
+                    <a href="blog-post.html" class="image-wrapper">
+                        <img class="image" alt="Post #1" src="food1.jpg">
+                    </a>
                 </div>
-                <a class="blog-more-link" href="/blog/blog-post-one" data-animation-role="content">Read More</a>
-            </section>
-        </div>
+                <div class="blog-basic-grid-text">
+                    <div class="blog-meta-section">
+                        <span class="blog-meta-primary">
+                        
+                        
+                          <span class="blog-author">Author Name</span>
+                        <br>
+                        <time class="blog-date" pubdate="" data-animation-role="date">7/24/19</time>
+                        </span>
+                    </div>
+                    <h1 class="blog-title">
+
+                        <a href="blog-post.html" data-no-animation="">
+                          Post #1
+                        </a>
+                    </h1>
+                    <div class="blog-excerpt">
+                        <div class="blog-excerpt-wrapper">
+                            <p class="" style="white-space:pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra placerat nibh ac dignissim. Suspendisse et elementum magna, et ultricies nisl. Pellentesque venenatis at neque quis venenatis. Aliquam vitae ultricies eros.</p>
+                        </div>
+
+                    </div>
+
+                    <button><a class="blog-more-link" href="blog-post.html">Read More</a></button>
 
 
-        <div class="box" id="footer">
-            <p>Designed by Sky</p>
+                </div>
+
+
+            </article>
+            <!-- Card 2 -->
+            <article class="blog-item-two">
+                <div>
+                    <a href="blog-post.html" class="image-wrapper">
+                        <img class="image" alt="Casting for Redfin" src="food2.jpg">
+                    </a>
+                </div>
+                <div class="blog-basic-grid-text">
+                    <div class="blog-meta-section">
+                        <span class="blog-meta-primary">
+                        
+                        
+                          <span class="blog-author">Author Name</span>
+                        <br>
+                        <time class="blog-date" pubdate="" data-animation-role="date">7/24/19</time>
+                        </span>
+                    </div>
+                    <h1 class="blog-title">
+
+                        <a href="blog-post.html" data-no-animation="">
+                            Post #2
+                        </a>
+                    </h1>
+                    <div class="blog-excerpt">
+                        <div class="blog-excerpt-wrapper">
+                            <p class="" style="white-space:pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra placerat nibh ac dignissim. Suspendisse et elementum magna, et ultricies nisl. Pellentesque venenatis at neque quis venenatis. Aliquam vitae ultricies eros.</p>
+                        </div>
+
+                    </div>
+
+                    <button><a class="blog-more-link" href="blog-post.html">Read More</a></button>
+
+
+                </div>
+
+
+            </article>
+            <!-- Card 3 -->
+            <article class="blog-item-three">
+                <div>
+                    <a href="blog-post.html" class="image-wrapper">
+                        <img class="image" alt="Casting for Redfin" src="food1.jpg">
+                    </a>
+                </div>
+                <div class="blog-basic-grid-text">
+                    <div class="blog-meta-section">
+                        <span class="blog-meta-primary">
+                        
+                        
+                          <span class="blog-author">Author Name</span>
+                        <br>
+                        <time class="blog-date" pubdate="" data-animation-role="date">7/24/19</time>
+                        </span>
+                    </div>
+                    <h1 class="blog-title">
+
+                        <a href="/blog-post.html" data-no-animation="">
+                            Post #3
+                        </a>
+                    </h1>
+                    <div class="blog-excerpt">
+                        <div class="blog-excerpt-wrapper">
+                            <p class="" style="white-space:pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra placerat nibh ac dignissim. Suspendisse et elementum magna, et ultricies nisl. Pellentesque venenatis at neque quis venenatis. Aliquam vitae ultricies eros.</p>
+                        </div>
+
+                    </div>
+
+                    <button><a class="blog-more-link" href="blog-post.html">Read More</a></button>
+
+                </div>
+
+
+            </article>
+            <!-- Card 4 -->
+            <article class="blog-item-four">
+                <div>
+                    <a href="blog-post.html" class="image-wrapper">
+                        <img class="image" alt="Casting for Redfin" src="food2.jpg">
+                    </a>
+                </div>
+                <div class="blog-basic-grid-text">
+                    <div class="blog-meta-section">
+                        <span class="blog-meta-primary">
+                        
+                        
+                          <span class="blog-author">Author Name</span>
+                        <br>
+                        <time class="blog-date" pubdate="" data-animation-role="date">7/24/19</time>
+                        </span>
+                    </div>
+                    <h1 class="blog-title">
+
+                        <a href="blog-post.html" data-no-animation="">
+                            Post #4
+                        </a>
+                    </h1>
+                    <div class="blog-excerpt">
+                        <div class="blog-excerpt-wrapper">
+                            <p class="" style="white-space:pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra placerat nibh ac dignissim. Suspendisse et elementum magna, et ultricies nisl. Pellentesque venenatis at neque quis venenatis. Aliquam vitae ultricies eros.</p>
+                        </div>
+
+                    </div>
+
+                    <button><a class="blog-more-link" href="blog-post.html">Read More</a></button>
+
+                </div>
+
+
+            </article>
+
+            <!-- </div> -->
         </div>
-    </div>
+
+    </main>
+
+    <footer id="pageFooter">
+        <p>made by sky</p>
+    </footer>
 
 </body>
-
-
-</html>
