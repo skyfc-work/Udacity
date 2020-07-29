@@ -1,0 +1,200 @@
+    general.css
+    /* Extra small devices (phones, 600px and down) */
+    
+    @media only screen and (max-width: 600px) {
+        body {
+            display: grid;
+            grid-template-areas: "header header header" "one two three" "footer footer footer";
+            grid-template-rows: 350px 1fr 60px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            height: 100vh;
+            margin: 0;
+            color: whitesmoke;
+            background: rgb(95, 95, 95);
+            font-family: 'Montserrat', sans-serif;
+            animation: fadeInAnimation ease-in .5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        header,
+        footer,
+        article,
+        nav,
+        div {
+            padding: 10px;
+            background: rgb(95, 95, 95);
+        }
+        h1 {
+            font-size: 1.9rem;
+        }
+        ul,
+        a {
+            list-style: none;
+            text-decoration: none;
+        }
+        a {
+            color: whitesmoke;
+        }
+        button {
+            background: rgb(197, 162, 97);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        blockquote {
+            background: rgb(197, 162, 97);
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+    }
+    /* Medium devices (landscape tablets, 768px and up) */
+    
+    @media only screen and (min-width: 768px) {
+        body {
+            display: grid;
+            grid-template-areas: "header header header" "one two three" "footer footer footer";
+            grid-template-rows: 350px 1fr 60px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            height: 100vh;
+            margin: 0;
+            color: whitesmoke;
+            background: rgb(95, 95, 95);
+            font-family: 'Montserrat', sans-serif;
+            animation: fadeInAnimation ease-in .5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        header,
+        footer,
+        article,
+        nav,
+        div {
+            padding: 10px;
+            background: rgb(95, 95, 95);
+        }
+        h1 {
+            font-size: 1.9rem;
+        }
+        ul,
+        a {
+            list-style: none;
+            text-decoration: none;
+        }
+        a {
+            color: whitesmoke;
+        }
+        button {
+            background: rgb(197, 162, 97);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        blockquote {
+            background: rgb(197, 162, 97);
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+    
+    @media only screen and (min-width: 992px) {}
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    
+    @media only screen and (min-width: 1200px) {
+        body {
+            display: grid;
+            grid-template-areas: "header header header" "one two three" "footer footer footer";
+            grid-template-rows: 350px 1fr 60px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            height: 100vh;
+            margin: 0;
+            color: whitesmoke;
+            background: rgb(95, 95, 95);
+            font-family: 'Montserrat', sans-serif;
+            animation: fadeInAnimation ease-in .5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        header,
+        footer,
+        article,
+        nav,
+        div {
+            padding: 10px;
+            background: rgb(95, 95, 95);
+        }
+        h1 {
+            font-size: 1.9rem;
+        }
+        ul,
+        a {
+            list-style: none;
+            text-decoration: none;
+        }
+        a {
+            color: whitesmoke;
+        }
+        button {
+            background: rgb(197, 162, 97);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+        }
+        blockquote {
+            background: rgb(197, 162, 97);
+            border-left: 10px solid #ccc;
+            margin: 1.5em 10px;
+            padding: 0.5em 10px;
+            quotes: "\201C""\201D""\2018""\2019";
+        }
+        figcaption {
+            background-color: black;
+            color: white;
+            font-style: italic;
+            padding: 2px;
+            text-align: center;
+        }
+    }
